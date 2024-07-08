@@ -77,6 +77,7 @@ export const projects = [
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
+    repo:"github.com"
   },
   {
     id: 2,
@@ -85,6 +86,7 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
+    repo:"github.com"
   },
   {
     id: 3,
@@ -93,6 +95,7 @@ export const projects = [
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
+    repo:"github.com"
   },
   {
     id: 4,
@@ -101,6 +104,7 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+    repo:"github.com"
   },
 ];
 
