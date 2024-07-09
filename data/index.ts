@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
+  { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I aspire to be a software developer, creating innovative and impactful applications.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,8 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
+    title: "To make a Global Impact.",
+    description: "Passionate about using technology ",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Delving into modern web development, one project at a time.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let's start a Project Together",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,35 +73,208 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Application Management System",
+    des: "A website with user authentication and admin panel features for the faculties of our college.",
+    img: "/ams-light.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://app-ms.vercel.app",
+    repo:"https://github.com/gyannj/application-management-system",
+    techstack:[
+        //   {
+          //     id: 1,
+          //     name: "React",
+          //     designation: "",
+          //     image:
+          //       "/re.svg",
+          //   },
+          {
+            id: 2,
+            name: "Next",
+            designation: "",
+            image:
+              "next.svg",
+          },
+          {
+            id: 3,
+            name: "TailWindCSS",
+            designation: "",
+            image:
+              "/tail.svg",
+          },
+          {
+            id: 4,
+            name: "TypeScript",
+            designation: "",
+            image:
+              "/ts.svg",
+          },
+          {
+            id: 5,
+            name: "MongoDB",
+            designation: "",
+            image:
+              "/mdb.svg",
+          },
+          {
+            id: 6,
+            name: "Clerk",
+            designation: "",
+            image:
+              "/clerk2.png",
+          },
+    ]
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "BookOwl - A Book Selling Website",
+    des: "Simplify your book purchasing experience with BookOwl. Browse and shop books across different categories.",
+    img: "/bookowl.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://bookowl.vercel.app",
+    repo:"https://github.com/gyannj/littlebox-ecommerce",
+    techstack:[
+      //   {
+        //     id: 1,
+        //     name: "React",
+        //     designation: "",
+        //     image:
+        //       "/re.svg",
+        //   },
+        {
+          id: 2,
+          name: "Next",
+          designation: "",
+          image:
+            "next.svg",
+        },
+        {
+          id: 3,
+          name: "TailWindCSS",
+          designation: "",
+          image:
+            "/tail.svg",
+        },
+        {
+          id: 4,
+          name: "TypeScript",
+          designation: "",
+          image:
+            "/ts.svg",
+        },
+        {
+          id: 5,
+          name: "AWS DynamoDB",
+          designation: "",
+          image:
+            "/DynamoDB.svg",
+        },
+  ]
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "NetConnect - A Professional Networking And Connectivity website",
+    des: "A LinkedIn like website for building professional connections and boosting your career.",
+    img: "/nc.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://net-connect-iota.vercel.app/",
+    repo:"https://github.com/gyannj/linkedin-clone-next",
+    techstack:[
+      //   {
+        //     id: 1,
+        //     name: "React",
+        //     designation: "",
+        //     image:
+        //       "/re.svg",
+        //   },
+        {
+          id: 2,
+          name: "Next",
+          designation: "",
+          image:
+            "next.svg",
+        },
+        {
+          id: 3,
+          name: "TailWindCSS",
+          designation: "",
+          image:
+            "/tail.svg",
+        },
+        {
+          id: 4,
+          name: "TypeScript",
+          designation: "",
+          image:
+            "/ts.svg",
+        },
+        {
+          id: 5,
+          name: "MongoDB",
+          designation: "",
+          image:
+            "/mdb.svg",
+        },
+        {
+          id: 6,
+          name: "Clerk",
+          designation: "",
+          image:
+            "/clerk2.png",
+        },
+      
+  ]
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Instagram Reel Viewer",
+    des: "A website to view Instagram Reels built using React",
+    img: "/igreel.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://gyannj.github.io/insta-reel-deploy/",
+    repo:"https://github.com/gyannj/insta-reel-deploy",
+    techstack:[
+        {
+            id: 1,
+            name: "React",
+            designation: "",
+            image:
+              "/re.svg",
+          },
+        // {
+        //   id: 2,
+        //   name: "Next",
+        //   designation: "",
+        //   image:
+        //     "next.svg",
+        // },
+        {
+          id: 3,
+          name: "TailWindCSS",
+          designation: "",
+          image:
+            "/tail.svg",
+        },
+        // {
+        //   id: 4,
+        //   name: "TypeScript",
+        //   designation: "",
+        //   image:
+        //     "/ts.svg",
+        // },
+        // {
+        //   id: 5,
+        //   name: "AWS DynamoDB",
+        //   designation: "",
+        //   image:
+        //     "/DynamoDB.svg",
+        // },
+        {
+          id:6,
+          name: "JavaScript",
+          designation: "",
+          image:"/js.svg"
+        }
+  ]
   },
 ];
 
@@ -205,13 +379,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/gyannj"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/fb3.svg",
+    link:"https://www.facebook.com/gyanjyoti.das.1048"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/gyan-jyoti/"
   },
 ];

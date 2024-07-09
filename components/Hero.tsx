@@ -25,18 +25,18 @@ const Hero = () => {
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center'>
                     <h2 className='uppercase tracking-widest tex-xs text-center text-blue-100 max-w-80'>
-                        Dynamic Web Magic
+                    CODE AND CREATIVITY
                     </h2>
 
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words='We build websites that are fast, secure and reliable for your business.'
+                        words='Hi I&apos;m Gyan Jyoti Das , a final year student and an aspiring Developer '
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi I&apos;m Gyan, a Next.js Developer based in India
+                        Final Year Student at NIT Silchar and a full stack developer
                     </p>
-                    <a href="#about">
+                    <a href="#projects">
                         <MagicButton
                             title="Show my Work"
                             icon={<FaLocationArrow/>}
