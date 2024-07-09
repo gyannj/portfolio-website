@@ -14,9 +14,9 @@ return (
         </h1>
 
         <div className='flex flex-wrap items-center justify-center p-4 gap-40 mt-20 sm:mt-18'>
-            {projects.map(({ id, title, des, img, iconLists, link ,repo}) => (
+            {projects.map(({ id, title, des, img, iconLists, link ,repo,techstack}) => (
                 <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center lg:w-[30%] md:w-[45%] sm:w-[80%] w-full mb-10 mt-10 sm:mt-5'>
-                    <RotatingCard title={title} des={des} img={img} iconLists={iconLists} link={link} repo={repo}/>
+                    <RotatingCard title={title} des={des} img={img} iconLists={iconLists} link={link} repo={repo} techstack={techstack}/>
                 </div>
             ))}
         </div>

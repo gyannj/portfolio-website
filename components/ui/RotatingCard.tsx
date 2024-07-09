@@ -6,6 +6,7 @@ import { CardBody, CardContainer, CardItem } from "./Card";
 import { BiArrowFromRight } from "react-icons/bi";
 import { FaArrowRight } from "react-icons/fa6";
 import { AnimatedTooltipPreview } from "./AnimatedTooltipBar";
+import { LinkPreview } from "./LinkPreview";
 
 export interface RotatingCardProps {
   title: string;
@@ -14,10 +15,11 @@ export interface RotatingCardProps {
   iconLists: string[];
   link: string;
   repo: string;
+  techstack: any[];
 }
 
 export function RotatingCard(props: RotatingCardProps) {
-  const { title, des, img, iconLists, link ,repo} = props;
+  const { title, des, img, iconLists, link ,repo,techstack} = props;
 
   return (
     <CardContainer className="inter-var">
@@ -70,7 +72,7 @@ export function RotatingCard(props: RotatingCardProps) {
              rotateZ={0}
              className="mt-4"
           >
-              <AnimatedTooltipPreview/>
+              <AnimatedTooltipPreview techstack={techstack}/>
           </CardItem>
           <CardItem
             translateZ={20}
@@ -78,9 +80,11 @@ export function RotatingCard(props: RotatingCardProps) {
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
-            <a href={link} target="_blank" rel="noreferrer">
-              View Project
-            </a>
+             <p>
+              <LinkPreview url={link} className=" bg-black dark:bg-white dark:text-black text-white text-xs font-bold">
+                View Project
+              </LinkPreview>
+             </p>
           </CardItem>
         </div>
       </CardBody>
