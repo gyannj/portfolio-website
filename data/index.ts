@@ -172,7 +172,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "NetConnect - A Professional Networking And Connectivity website",
+    title: "NetConnect - A Professional Network",
     des: "A LinkedIn like website for building professional connections and boosting your career.",
     img: "/nc.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -227,7 +227,7 @@ export const projects = [
   {
     id: 4,
     title: "Instagram Reel Viewer",
-    des: "A website to view Instagram Reels built using React",
+    des: "A website to view Instagram Reels built using React, TailWindCSS and JavaScript.",
     img: "/igreel.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://gyannj.github.io/insta-reel-deploy/",
@@ -352,24 +352,24 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Dev - JSM Tech",
+  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Network Engineering Intern",
+    desc: "Trained on usage and configuration of network devices, and troubleshooting network issues.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
