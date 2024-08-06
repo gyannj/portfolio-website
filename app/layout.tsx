@@ -17,6 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFKVDL5R4Z"></script>
+      <script id="google-analyitcs">
+      {` window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MFKVDL5R4Z');`}
+      </script>
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
